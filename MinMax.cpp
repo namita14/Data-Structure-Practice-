@@ -7,7 +7,7 @@ void getMax(int arr[],int n){
     for(int i = 0; i<n; i++) {
 
         maxnum = max(maxnum, arr[i]);
-
+    }
     return maxnum;
 }
 
@@ -17,7 +17,7 @@ void getMin(int arr[], int n){
     for(int i = 0; i<n; i++) {
 
         minnum = min(minnum, arr[i]);
-
+    }
     return minnum;
 }
 
